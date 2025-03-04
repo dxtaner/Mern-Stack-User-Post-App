@@ -5,12 +5,12 @@ const multer = require("multer");
 const path = require("path");
 const http = require("http");
 
-const corsMiddleware = require("./middlewares/cors");
-const fileHelper = require("./utils/fileHelper");
-const connectToDatabase = require("./config/db");
+const corsMiddleware = require("./middlewares/cors.js");
+const fileHelper = require("./utils/fileHelper.js");
+const connectToDatabase = require("./config/db.js");
 const postRoutes = require("./routes/post.js");
-const authRoutes = require("./routes/auth");
-const keys = require("./keys");
+const authRoutes = require("./routes/auth.js");
+const keys = require("./keys.js");
 
 const app = express();
 const server = http.createServer(app);
