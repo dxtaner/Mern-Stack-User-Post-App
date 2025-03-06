@@ -1,0 +1,36 @@
+.main_nav {
+    height: 80%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.main_nav_items {
+    list-style: none;
+    padding: 0;
+    margin: 0 1.5rem;
+    display: none;
+    font-weight: 900;
+}
+
+@media (min-width: 560px) {
+    .main_nav_items {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.main_nav_items a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.main_nav_items a:hover {
+    color: #61dafb;
+}
