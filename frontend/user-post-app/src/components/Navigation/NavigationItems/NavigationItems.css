@@ -1,0 +1,45 @@
+.navigation_item {
+    padding: 0 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.navigation_item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    transition: color 0.3s ease;
+}
+
+.navigation_item.mobile {
+    font-size: 1.75rem;
+    margin: 0.5rem 0;
+}
+
+.navigation_item.mobile a {
+    color: #3b0062;
+}
+
+.navigation_item a:hover,
+.navigation_item a:active,
+.navigation_item a.active {
+    color: #fab83f;
+}
+
+.navigation_item:last-of-type {
+    padding-right: 0;
+}
+
+.navigation_item button {
+    font: inherit;
+    background: transparent;
+    border: none;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.navigation_item button:hover,
+.navigation_item button:active {
+    color: #fab83f;
+}
