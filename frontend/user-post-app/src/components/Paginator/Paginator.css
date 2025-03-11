@@ -1,0 +1,31 @@
+.paginator_controls {
+    display: flex;
+    justify-content: center;
+}
+
+.paginator_control {
+    width: 5rem;
+    padding: 0.5rem 0;
+    margin: 0 1rem;
+    border: 1px solid #3b0062;
+    border-radius: 10px;
+    background: rgb(251, 223, 228);
+    font: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #3b0062;
+    transition: color 0.3s, border-color 0.3s;
+    text-align: center;
+}
+
+.paginator_control:hover,
+.paginator_control:active {
+    color: #f8a100;
+    border-color: #f8a100;
+}
+
+.paginator_control:focus {
+    outline: none;
+    border-color: #f8a100;
+}
