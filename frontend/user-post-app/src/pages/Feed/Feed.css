@@ -1,0 +1,43 @@
+.feed_status {
+    width: 77%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.feed_status:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.feed_status form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.feed_status form * {
+    margin: 0.5rem;
+}
+
+.feed_control {
+    text-align: center;
+}
+
+.new-post_preview-image {
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .feed_status {
+        width: 30rem;
+    }
+}
